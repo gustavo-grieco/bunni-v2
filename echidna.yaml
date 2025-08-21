@@ -1,0 +1,13 @@
+seqLen: 1
+testMode: assertion
+
+deployContracts: [["0x1f", "BunniSwapMath"]]
+cryticArgs: ["--compile-libraries=(BunniSwapMath,0x1f)", "--ignore-compile"]
+testLimit: 1000000000000
+format: text
+
+maxTimeDelay: 0
+maxBlockDelay: 0
+
+symExecMaxExplore: 50
+symExecMaxIters: 15
